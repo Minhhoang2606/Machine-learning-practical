@@ -120,3 +120,4 @@ from sklearn.metrics import classification_report, accuracy_score
 
 print(classification_report(y_test, y_pred_optimized))
 print(f"Improved Model Accuracy: {accuracy_score(y_test, y_pred_optimized) * 100:.2f}%")
+
