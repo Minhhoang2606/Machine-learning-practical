@@ -1,4 +1,8 @@
+"""
+Created on Sun Aug 26 18:46:58 2022
 
+@author: Henry Ha
+"""
 # Importing Libraries
 import pandas as pd
 import numpy as np
@@ -95,5 +99,3 @@ print("\nRFE Model Evaluation:")
 rfe_evaluator = ModelEvaluator(classifier, X_train_rfe, y_train_smote)
 rfe_evaluator.k_fold_cross_validation()
 rfe_evaluator.calculate_confusion_matrix()
-git commit -m "update Churn rate prediction"
-git push origin main
